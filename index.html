@@ -3,11 +3,349 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
+
+  <title>Little Tugs Family Child Care | East Falmouth, MA</title>
+
+  <meta
+    name="description"
+    content="EEC-licensed nature, art, and exploration-based family child care in East Falmouth, Massachusetts. A nurturing program for infants through age four."
+  >
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #314033;
+      background-color: #f8f5ed;
+      line-height: 1.6;
+    }
+
+    header {
+      background:
+        linear-gradient(rgba(42, 73, 48, 0.72), rgba(42, 73, 48, 0.72)),
+        url("images/outdoor-classroom.jpg") center/cover;
+      min-height: 620px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .hero-content {
+      max-width: 850px;
+    }
+
+    .eyebrow {
+      margin-bottom: 12px;
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 20px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2.5rem, 6vw, 5rem);
+      line-height: 1.05;
+    }
+
+    .hero-text {
+      max-width: 700px;
+      margin: 0 auto 28px;
+      font-size: 1.25rem;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 24px;
+      border-radius: 6px;
+      background-color: #f2c96d;
+      color: #26382a;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .button:hover {
+      background-color: #ffe099;
+    }
+
+    main {
+      width: min(1100px, 92%);
+      margin: auto;
+    }
+
+    section {
+      padding: 75px 0;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #34593b;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 2.3rem;
+      line-height: 1.2;
+    }
+
+    .intro {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 55px;
+      align-items: center;
+    }
+
+    .intro-card {
+      padding: 35px;
+      border-radius: 14px;
+      background-color: #e5eddf;
+    }
+
+    .programs {
+      text-align: center;
+    }
+
+    .program-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+      margin-top: 35px;
+      text-align: left;
+    }
+
+    .program-card {
+      padding: 28px;
+      border-radius: 12px;
+      background-color: white;
+      box-shadow: 0 4px 18px rgba(46, 61, 47, 0.08);
+    }
+
+    .program-card h3 {
+      margin-top: 0;
+      color: #42694a;
+    }
+
+    .about {
+      margin-bottom: 75px;
+      padding: 55px;
+      border-radius: 18px;
+      background-color: #34593b;
+      color: white;
+    }
+
+    .about h2 {
+      color: white;
+    }
+
+    .enrollment {
+      padding: 45px 25px;
+      background-color: #f2c96d;
+      text-align: center;
+    }
+
+    .enrollment h2 {
+      margin-bottom: 10px;
+      color: #26382a;
+    }
+
+    footer {
+      padding: 35px 20px;
+      background-color: #26382a;
+      color: white;
+      text-align: center;
+    }
+
+    footer a {
+      color: #f2c96d;
+    }
+
+    @media (max-width: 800px) {
+      header {
+        min-height: 520px;
+      }
+
+      .intro,
+      .program-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .about {
+        padding: 35px 25px;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Welcome to my website</h1>
-  <p>This website is hosted for free with GitHub Pages.</p>
+
+  <header>
+    <div class="hero-content">
+      <p class="eyebrow">
+        EEC-Licensed Family Child Care in East Falmouth
+      </p>
+
+      <h1>Little Tugs Family Child Care</h1>
+
+      <p class="hero-text">
+        A warm and caring environment where children learn, grow, and build
+        developmental skills through hands-on experiences, creativity, and nature.
+      </p>
+
+      <a class="button" href="#contact">Ask About Enrollment</a>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="intro">
+      <div>
+        <p class="eyebrow">Nature, Art and Exploration</p>
+
+        <h2>A nurturing place for children to learn and thrive</h2>
+
+        <p>
+          Little Tugs is a small, intimate family child care program for infants
+          through age four. Children receive individualized attention in a caring
+          home environment while enjoying meaningful opportunities to play,
+          explore, create, and learn.
+        </p>
+
+        <p>
+          Our nature-influenced program includes a spacious outdoor classroom
+          and garden, giving children daily opportunities for discovery,
+          movement, imagination, and connection with the natural world.
+        </p>
+      </div>
+
+      <div class="intro-card">
+        <h2>Now enrolling</h2>
+
+        <p>
+          <strong>Three full-time spaces are currently available.</strong>
+        </p>
+
+        <p>
+          Contact us to learn more about the program, current openings, and the
+          enrollment process.
+        </p>
+
+        <a class="button" href="#contact">Contact Little Tugs</a>
+      </div>
+    </section>
+
+    <section class="programs">
+      <p class="eyebrow">Our Program</p>
+
+      <h2>Learning through everyday experiences</h2>
+
+      <div class="program-grid">
+
+        <article class="program-card">
+          <h3>Individualized Care</h3>
+          <p>
+            A small-group setting allows each child to receive personal attention,
+            encouragement, and care based on their individual needs and stage of
+            development.
+          </p>
+        </article>
+
+        <article class="program-card">
+          <h3>Mixed-Age Learning</h3>
+          <p>
+            Children from infancy through age four learn alongside one another,
+            supporting peer-to-peer learning, cooperation, empathy, and social
+            development.
+          </p>
+        </article>
+
+        <article class="program-card">
+          <h3>Creative Exploration</h3>
+          <p>
+            Children participate in art, sensory play, games, music, movement,
+            and other hands-on activities that encourage curiosity and creativity.
+          </p>
+        </article>
+
+        <article class="program-card">
+          <h3>Outdoor Classroom</h3>
+          <p>
+            Our large outdoor nature classroom and garden provide space for daily
+            exploration, active play, observation, and discovery.
+          </p>
+        </article>
+
+        <article class="program-card">
+          <h3>Peaceful Setting</h3>
+          <p>
+            The program is located in a quiet East Falmouth neighborhood that
+            offers a calm and welcoming environment for outdoor learning and play.
+          </p>
+        </article>
+
+        <article class="program-card">
+          <h3>Developmentally Appropriate</h3>
+          <p>
+            Activities and routines are designed to support children's physical,
+            social, emotional, creative, and cognitive development.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="about">
+      <p class="eyebrow">About the Provider</p>
+
+      <h2>More than 25 years of early childhood experience</h2>
+
+      <p>
+        I have more than 25 years of experience in early childhood education,
+        including work in both child care centers and family child care programs.
+        I hold a bachelor's degree and a Massachusetts Department of Early
+        Education and Care Director I qualification.
+      </p>
+
+      <p>
+        I am committed to providing a safe, enriching, and developmentally
+        appropriate environment where every child is known, valued, and supported.
+      </p>
+    </section>
+
+  </main>
+
+  <section class="enrollment" id="contact">
+    <h2>Interested in Little Tugs?</h2>
+
+    <p>
+      Contact us to ask about available spaces, schedule a conversation, or learn
+      more about the program.
+    </p>
+
+    <p>
+      <strong>Email:</strong>
+      <a href="mailto:your-email@example.com">your-email@example.com</a>
+    </p>
+
+    <p>
+      <strong>Phone:</strong>
+      <a href="tel:+15085551234">(508) 555-1234</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>
+      Little Tugs Family Child Care · East Falmouth, Massachusetts
+    </p>
+
+    <p>
+      EEC-Licensed Family Child Care
+    </p>
+  </footer>
+
 </body>
 </html>
