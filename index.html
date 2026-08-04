@@ -26,8 +26,12 @@
 
     header {
       background:
-        linear-gradient(rgba(42, 73, 48, 0.72), rgba(42, 73, 48, 0.72)),
-        url("images/outdoor-classroom.jpg") center/cover;
+        linear-gradient(
+          rgba(42, 73, 48, 0.72),
+          rgba(42, 73, 48, 0.72)
+        ),
+        url("images/outdoor-structure.jpeg") center / cover;
+
       min-height: 620px;
       display: flex;
       align-items: center;
@@ -130,6 +134,31 @@
       color: #42694a;
     }
 
+    .environment {
+      padding-top: 10px;
+      text-align: center;
+    }
+
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+      margin-top: 35px;
+    }
+
+    .photo-grid figure {
+      margin: 0;
+    }
+
+    .photo-grid img {
+      display: block;
+      width: 100%;
+      height: 320px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 18px rgba(46, 61, 47, 0.1);
+    }
+
     .about {
       margin-bottom: 75px;
       padding: 55px;
@@ -153,6 +182,10 @@
       color: #26382a;
     }
 
+    .enrollment a {
+      color: #26382a;
+    }
+
     footer {
       padding: 35px 20px;
       background-color: #26382a;
@@ -170,8 +203,13 @@
       }
 
       .intro,
-      .program-grid {
+      .program-grid,
+      .photo-grid {
         grid-template-columns: 1fr;
+      }
+
+      .photo-grid img {
+        height: 300px;
       }
 
       .about {
@@ -196,7 +234,9 @@
         developmental skills through hands-on experiences, creativity, and nature.
       </p>
 
-      <a class="button" href="#contact">Ask About Enrollment</a>
+      <a class="button" href="#contact">
+        Ask About Enrollment
+      </a>
     </div>
   </header>
 
@@ -204,9 +244,13 @@
 
     <section class="intro">
       <div>
-        <p class="eyebrow">Nature, Art and Exploration</p>
+        <p class="eyebrow">
+          Nature, Art and Exploration
+        </p>
 
-        <h2>A nurturing place for children to learn and thrive</h2>
+        <h2>
+          A nurturing place for children to learn and thrive
+        </h2>
 
         <p>
           Little Tugs is a small, intimate family child care program for infants
@@ -226,7 +270,9 @@
         <h2>Now enrolling</h2>
 
         <p>
-          <strong>Three full-time spaces are currently available.</strong>
+          <strong>
+            Three full-time spaces are currently available.
+          </strong>
         </p>
 
         <p>
@@ -234,74 +280,100 @@
           enrollment process.
         </p>
 
-        <a class="button" href="#contact">Contact Little Tugs</a>
+        <a class="button" href="#contact">
+          Contact Little Tugs
+        </a>
       </div>
     </section>
 
     <section class="programs">
-      <p class="eyebrow">Our Program</p>
+      <p class="eyebrow">
+        Our Program
+      </p>
 
-      <h2>Learning through everyday experiences</h2>
+      <h2>
+        Learning through everyday experiences
+      </h2>
 
       <div class="program-grid">
 
         <article class="program-card">
-          <h3>Individualized Care</h3>
+          <h3>Individualized, Mixed-Age Care</h3>
+
           <p>
-            A small-group setting allows each child to receive personal attention,
-            encouragement, and care based on their individual needs and stage of
-            development.
+            A small-group setting allows each child to receive personal attention
+            based on their individual needs and stage of development. Children
+            from infancy through age four also learn alongside one another,
+            encouraging cooperation, empathy, and peer-to-peer learning.
           </p>
         </article>
 
         <article class="program-card">
-          <h3>Mixed-Age Learning</h3>
+          <h3>Creative, Hands-On Learning</h3>
+
           <p>
-            Children from infancy through age four learn alongside one another,
-            supporting peer-to-peer learning, cooperation, empathy, and social
-            development.
+            Children take part in art, sensory play, games, music, movement,
+            and other developmentally appropriate activities that encourage
+            curiosity, creativity, and growth.
           </p>
         </article>
 
         <article class="program-card">
-          <h3>Creative Exploration</h3>
+          <h3>Nature and Outdoor Exploration</h3>
+
           <p>
-            Children participate in art, sensory play, games, music, movement,
-            and other hands-on activities that encourage curiosity and creativity.
+            Our large outdoor classroom and garden provide daily opportunities
+            for active play, observation, imagination, and discovery in a
+            peaceful East Falmouth setting.
           </p>
         </article>
 
-        <article class="program-card">
-          <h3>Outdoor Classroom</h3>
-          <p>
-            Our large outdoor nature classroom and garden provide space for daily
-            exploration, active play, observation, and discovery.
-          </p>
-        </article>
+      </div>
+    </section>
 
-        <article class="program-card">
-          <h3>Peaceful Setting</h3>
-          <p>
-            The program is located in a quiet East Falmouth neighborhood that
-            offers a calm and welcoming environment for outdoor learning and play.
-          </p>
-        </article>
+    <section class="environment">
+      <p class="eyebrow">
+        Our Learning Environment
+      </p>
 
-        <article class="program-card">
-          <h3>Developmentally Appropriate</h3>
-          <p>
-            Activities and routines are designed to support children's physical,
-            social, emotional, creative, and cognitive development.
-          </p>
-        </article>
+      <h2>
+        Spaces created for comfort, creativity, and discovery
+      </h2>
+
+      <div class="photo-grid">
+
+        <figure>
+          <img
+            src="images/pots.jpeg"
+            alt="Colorful planting pots used in the Little Tugs outdoor learning environment"
+          >
+        </figure>
+
+        <figure>
+          <img
+            src="images/outdoor-structure.jpeg"
+            alt="Outdoor play and learning structure at Little Tugs Family Child Care"
+          >
+        </figure>
+
+        <figure>
+          <img
+            src="images/couch.jpeg"
+            alt="Comfortable indoor reading and gathering space at Little Tugs Family Child Care"
+          >
+        </figure>
 
       </div>
     </section>
 
     <section class="about">
-      <p class="eyebrow">About the Provider</p>
+      <p class="eyebrow">
+        About the Provider
+      </p>
 
-      <h2>More than 25 years of early childhood experience</h2>
+      <h2>
+        More than 25 years of early childhood experience
+      </h2>
 
       <p>
         I have more than 25 years of experience in early childhood education,
@@ -328,12 +400,16 @@
 
     <p>
       <strong>Email:</strong>
-      <a href="mailto:your-email@example.com">your-email@example.com</a>
+      <a href="mailto:your-email@example.com">
+        your-email@example.com
+      </a>
     </p>
 
     <p>
       <strong>Phone:</strong>
-      <a href="tel:+15085551234">(508) 555-1234</a>
+      <a href="tel:+15085551234">
+        (508) 555-1234
+      </a>
     </p>
   </section>
 
