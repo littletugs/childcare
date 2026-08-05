@@ -1,16 +1,13 @@
-## Hi there 👋
+# Little Tugs Family Child Care Website
 
-<!--
-**littletugs/littletugs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This repository contains the GitHub Pages website for Little Tugs Family Child Care in Falmouth, MA.
 
-Here are some ideas to get you started:
+Live site: https://littletugs.github.io/childcare/
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Files
+- `index.html` — main homepage
+- `style.css` — site styles
+- `images/` — site images
+
+## Update notes
+Edit `index.html` and `style.css`, then commit changes to publish updates.
